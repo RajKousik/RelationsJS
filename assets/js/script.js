@@ -4,19 +4,19 @@ function printRelation(number, gender)
     let relation;
     if(gender == 'f' && number > 0)
     {
-        relation = "son"
+        relation = "daughter"
     }
     else if(gender == 'f' && number < 0)
     {
-        relation = "father"
+        relation = "mother"
     }
     else if(gender == 'm' && number > 0)
     {
-        relation = "daughter"
+        relation = "son"
     }
     else
     {
-        relation = "mother"
+        relation = "father"
     }
 
     switch(number)
